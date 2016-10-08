@@ -89,8 +89,13 @@ footer {
 	text-align: center;
 }
 
+#thirdheader {
+	display: inline-block;
+	color: firebrick;
+}
+
 h1 {
-	font-family: Blern;
+	font-family: phenomena;
 	font-weight: 500;
 	display: block;
 	font-size: 125px;
@@ -101,7 +106,7 @@ h1 {
 }
 
 h2 {
-	font-family: Phenomena;
+	font-family: simplifica;
 	display: block;
 	text-align: center;
 	margin: auto;
@@ -111,7 +116,7 @@ h2 {
 }
 
 h3 {
-	font-family: Phenomena;
+	font-family: simplifica;
 	text-align: center;
 	margin: auto;
 	font-size: 75px;
@@ -121,7 +126,7 @@ h3 {
 }
 
 h4 {
-	font-family: Phenomena;
+	font-family: simplifica;
 	display: block;
 	text-align: center;
 	margin: auto;
