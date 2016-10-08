@@ -1,0 +1,234 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Simplifica;
+    src: url('Fonts/Simplifica.ttf');
+}
+
+body {
+    background-image: url(images/wood.JPG);
+    background-attachment: fixed;
+}
+
+#mainbox {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#navbar {
+    text-align: center;
+    font-family: simplifica;
+}
+
+#navigator {
+    list-style-type: none;
+    margin: auto;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #444;
+    width: 85%;
+    border-radius: 0;
+    display: inline-table;
+}
+
+.navkap {
+    transition: 1s;
+}
+
+.NavigatorElement {
+    float: left;
+    display: inline;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.navigatorlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#active {
+    background-color: darkseagreen;
+}
+
+.navigatorlink:hover:not(#active) {
+    background-color: darkseagreen;
+}
+
+main {
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h1 {
+    font-family: simplifica;
+    font-weight: 500;
+    display: block;
+    font-size: 125px;
+    text-align: center;
+    margin: auto;
+    color: darkseagreen;
+    -webkit-text-stroke: 0.5px black;
+}
+
+h2 {
+    font-family: simplifica;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+    font-size: 90px;
+    color: darkseagreen;
+}
+
+h3 {
+    font-family: simplifica;
+    text-align: center;
+    margin: auto;
+    font-size: 75px;
+    display: block;
+    color: darkseagreen;
+    font-weight: 200;
+}
+
+h4 {
+    font-family: simplifica;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 75px;
+    font-weight: 100;
+    color: darkseagreen;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-family: simplifica;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    display: block;
+}
+
+h5 {
+    font-family: simplifica;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+}
+
+.linje {
+    width: 85%;
+    size: 1;
+}
+
+#kollywood {
+    padding-bottom: 20px;
+}
+
+.social {
+    font-size: 40px;
+    font-family: simplifica;
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+.social:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px;
+}
+
+.sociallist {
+    margin: auto;
+    color: darkseagreen;
+}
+
+ul {
+    list-style-type: none;
+    width: auto;
+    margin: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 2px;
+    transition: 1s;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: darkseagreen;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+}
+
+.dropdown-content a:hover {
+    background-color: darkseagreen;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
