@@ -144,7 +144,10 @@ h5 {
 .linje {
     width: 85%;
     size: 1;
-    margin: 0;
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
 }
 
 #kollywood {
