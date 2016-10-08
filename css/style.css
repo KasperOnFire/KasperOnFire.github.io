@@ -1,16 +1,16 @@
 @font-face {
 	font-family: Simplifica;
-	src: url('fonts/Simplifica.ttf') format("truetype");
+	src: url('../fonts/Simplifica.ttf') format("truetype");
 }
 
 @font-face {
 	font-family: Blern;
-	src: url('fonts/Blern.otf') format("opentype");
+	src: url('../fonts/Blern.otf') format("opentype");
 }
 
 @font-face {
 	font-family: Phenomena;
-	src: url('fonts/Phenomena.ttf') format("truetype")
+	src: url('../fonts/Phenomena.ttf') format("truetype")
 }
 
 body {
