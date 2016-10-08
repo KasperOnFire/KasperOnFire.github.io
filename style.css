@@ -9,6 +9,16 @@ body {
     src: url('fonts/Simplifica.ttf');
 }
 
+@font-face {
+    font-family: Blern;
+    src: url('fonts/blern.otf');
+}
+
+@fontface {
+    font-family: phenomena;
+    src: url(fonts/Phenomena.otf);
+}
+
 body {
     background-image: url(images/wood.JPG);
     background-attachment: fixed;
@@ -25,7 +35,7 @@ body {
 
 #navbar {
     text-align: center;
-    font-family: simplifica;
+    font-family: Phenomena;
 }
 
 #navigator {
@@ -80,7 +90,7 @@ footer {
 }
 
 h1 {
-    font-family: simplifica;
+    font-family: blern;
     font-weight: 500;
     display: block;
     font-size: 125px;
@@ -91,7 +101,7 @@ h1 {
 }
 
 h2 {
-    font-family: simplifica;
+    font-family: Phenomena;
     display: block;
     text-align: center;
     margin: auto;
@@ -101,7 +111,7 @@ h2 {
 }
 
 h3 {
-    font-family: simplifica;
+    font-family: Phenomena;
     text-align: center;
     margin: auto;
     font-size: 75px;
@@ -111,7 +121,7 @@ h3 {
 }
 
 h4 {
-    font-family: simplifica;
+    font-family: Phenomena;
     display: block;
     text-align: center;
     margin: auto;
@@ -126,7 +136,7 @@ iframe {
 }
 
 p {
-    font-family: simplifica;
+    font-family: Phenomena;
     text-align: center;
     margin: auto;
     font-size: 50px;
@@ -134,7 +144,7 @@ p {
 }
 
 h5 {
-    font-family: simplifica;
+    font-family: Phenomena;
     display: block;
     text-align: center;
     margin: auto;
@@ -156,7 +166,7 @@ h5 {
 
 .social {
     font-size: 40px;
-    font-family: simplifica;
+    font-family: Phenomena;
     display: block;
     text-align: center;
     margin: auto;
