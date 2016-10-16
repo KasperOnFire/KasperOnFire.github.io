@@ -53,7 +53,7 @@ h1 {
 	font-family: Anders;
 	font-weight: 600;
 	font-size: 150px;
-	color: #555;
+	color: #C0B283;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	padding: 0;
 	margin: 0;
@@ -116,7 +116,7 @@ p {
 #mainbox {
 	margin: auto;
 	background-color: rgba(255, 255, 255, 0);
-	width: 75%;
+	width: 70%;
 	margin-top: 20px;
 	border-radius: 15px;
 	margin-bottom: 25px;
@@ -132,10 +132,11 @@ p {
 	margin: auto;
 	padding: 2px;
 	overflow: hidden;
-	background-color: #444;
+	background-color: #333;
 	width: 85%;
 	border-radius: 0;
 	display: inline-table;
+   /* outline: solid darkslategray;    */
 }
 
 .navkap {
@@ -168,16 +169,23 @@ p {
 
 #firstheader {
 	padding: 5px;
+    font-size: 85px;
 }
 
 #secondheader {
 	display: inline-block;
 	margin-left: auto;
+    color: darkseagreen;
 }
 
 #thirdheader {
 	display: inline-block;
 	color: darkslategray;
+}
+
+hr {
+    /* border-color: darkslategray;
+    background-color: darkslategray; */
 }
 
 .linje {
