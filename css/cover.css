@@ -2,6 +2,11 @@
  * Globals
  */
 
+@font-family {
+    font-family: MohaveSemiBold;
+    src: url(../fonts/Mohave-SemiBold.otf);
+}
+
 
 /* Links */
 
@@ -37,7 +42,7 @@ body {
 body {
     color: #fff;
     text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -51,7 +56,7 @@ body {
     background-color: #555;
     /* For at least Firefox */
     min-height: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset 0 0 100px #000;
     box-shadow: 0 0 25px rgba(0, 0, 0, .5);
     padding-bottom: 5px;
 }
@@ -149,7 +154,8 @@ body {
     border-radius: 15px;
     padding: 20px;
     align-content: center;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 15px 1px rgba(0, 0, 0, 0.9);
+    font-family: monospace;
 }
 
 .consoleblock {
@@ -162,6 +168,7 @@ body {
     padding: 20px;
     align-content: center;
     box-shadow: 0 0 15px #000;
+    font-family: courier new;
 }
 
 
@@ -174,8 +181,6 @@ body {
 .publicmain {
     color: rgb(204, 120, 50);
 }
-
-.systemo {}
 
 .sout {
     color: rgb(152, 118, 170);
@@ -192,6 +197,7 @@ body {
 .cover-heading {
     color: darkseagreen;
     font-size: 60px;
+    font-family: mohavesemibold;
 }
 
 .lead {
