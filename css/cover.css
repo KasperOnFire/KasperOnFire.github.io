@@ -2,11 +2,6 @@
  * Globals
  */
 
-@font-family {
-    font-family: MohaveSemiBold;
-    src: url(../fonts/Mohave-SemiBold.otf);
-}
-
 
 /* Links */
 
@@ -53,12 +48,13 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #555;
+    background-color: #666;
     /* For at least Firefox */
     min-height: 100%;
     -webkit-box-shadow: inset 0 0 100px #000;
     box-shadow: 0 0 25px rgba(0, 0, 0, .5);
     padding-bottom: 5px;
+    border-radius: 0 0 10px 10px;
 }
 
 .site-wrapper-inner {
@@ -69,6 +65,7 @@ body {
 .cover-container {
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 25px;
 }
 
 
@@ -136,7 +133,8 @@ body {
  */
 
 .cover {
-    padding: 0 20px;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .cover .btn-lg {
@@ -164,7 +162,7 @@ body {
     font-size: 18px;
     background-color: #000;
     margin-bottom: auto;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 20px;
     align-content: center;
     box-shadow: 0 0 15px #000;
@@ -197,12 +195,14 @@ body {
 .cover-heading {
     color: darkseagreen;
     font-size: 60px;
-    font-family: mohavesemibold;
+    font-family: expletus-sans, arial;
 }
 
 .lead {
     color: #999;
     font-size: 30px;
+    font-family: raleway, arial;
+    margin: auto;
 }
 
 
@@ -215,9 +215,13 @@ body {
     /* IE8 proofing */
     color: rgba(255, 255, 255, .5);
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
 }
 
-
+.inner coevr
 /*
  * Affix and center
  */
