@@ -41,6 +41,28 @@ body {
 }
 
 
+/*fade in, zoom in and other animation */
+
+.fadein1 {
+    animation-delay: 2s;
+    animation: fadein 4s;
+}
+
+.fadein2 {
+    animation-delay: 8s;
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
 .site-wrapper {
