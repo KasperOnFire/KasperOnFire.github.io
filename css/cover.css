@@ -146,6 +146,20 @@ body {
     padding-bottom: 25px;
 }
 
+.cvhead {
+    color: darkseagreen;
+    font-family: raleway;
+    text-align: center;
+}
+
+.cvlist {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    line-height: 200%;
+    color: white;
+}
+
 
 /* Padding for spacing */
 
@@ -248,6 +262,22 @@ body {
     align-content: center;
     font-family: courier new;
     height: auto;
+}
+
+.userinput {
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: courier new;
+    height: auto;
+    width: auto;
+    border: none;
+}
+
+.userinput:focus {
+    outline: none;
+    border: none;    
 }
 
 .headline {
