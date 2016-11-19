@@ -45,22 +45,22 @@ body {
 
 .fadein1 {
     opacity: 0;
-    animation: fadein 3s easein 1s forwards;
+    animation: fadein 2s forwards;
 }
 
 .fadein2 {
     opacity: 0;
-    animation: fadein 5s easein 5s forwards;
+    animation: fadein 2s 2s forwards;
 }
 
 .fadein3 {
     opacity: 0;
-    animation: fadein 10s easein 8s forwards;
+    animation: fadein 4s 3s forwards;
 }
 
 .fadein4 {
     opacity: 0;
-    animation: fadein 10s easein 12s forwards;
+    animation: fadein 4s 5s forwards;
 }
 
 @keyframes fadein {
