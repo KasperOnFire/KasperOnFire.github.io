@@ -277,7 +277,7 @@ body {
 
 .userinput:focus {
     outline: none;
-    border: none;    
+    border: none;
 }
 
 .headline {
@@ -288,6 +288,7 @@ body {
     height: auto;
     padding: 5px;
     border-radius: 8px 8px 0px 0px;
+    margin-top: 50px;
 }
 
 .headline span {
