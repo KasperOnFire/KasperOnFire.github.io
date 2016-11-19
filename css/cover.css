@@ -249,7 +249,7 @@ body {
     align-content: center;
     box-shadow: 0 0 15px #000;
     font-family: courier new;
-    height: 60px;
+    height: auto;
 }
 
 .contactme {}
