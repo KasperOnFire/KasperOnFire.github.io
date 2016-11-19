@@ -38,6 +38,7 @@ body {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    background-image: url(../img/greynoise.jpg);
 }
 
 
@@ -80,7 +81,7 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #666;
+    background-color: rgba(51, 51, 51, 0.5);
     /* For at least Firefox */
     min-height: 100%;
     -webkit-box-shadow: inset 0 0 25px #000;
@@ -182,7 +183,7 @@ body {
     font-size: 18px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.3);
     border-radius: 15px;
     padding: 20px;
     align-content: center;
@@ -290,7 +291,7 @@ body {
         top: 0;
     }
     .mastfoot {
-        position: fixed;
+        position: absolute;
         bottom: 0;
     }
     /* Start the vertical centering */
