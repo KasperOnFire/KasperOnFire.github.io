@@ -48,7 +48,6 @@
                         <div class="text-body">
                             <p>> Hello there, visitor!</p>
                             <p>> Welcome to my website!</p>
-                            <p>> Where do you wanna go? (Features/Contact)</p>
                             <p>>
                                 <input class="userinput" type="text" name="gotolink"> </p>
                         </div>
@@ -75,20 +74,6 @@
                 , typeSpeed: 30
                 , showCursor: 0
                 , startDelay: 1000
-            });
-        });
-    </script>
-    <script>
-        // Using jQuery.
-        $(function () {
-            $("input").each(function () {
-                $(this).find(".userinput").keypress(function (e) {
-                    // Enter pressed?
-                    if (e.which == 10 || e.which == 13) {
-                        window.location.href = "http://breindal.me/" + document.getElementsByClassName("userinput").value;
-                    }
-                });
-                $(this).find('input[type=submit]').hide();
             });
         });
     </script>
