@@ -51,12 +51,12 @@ body {
 
 .fadein2 {
     opacity: 0;
-    animation: fadein 2s 2s forwards;
+    animation: fadein 2s 1s forwards;
 }
 
 .fadein3 {
     opacity: 0;
-    animation: fadein 4s 3s forwards;
+    animation: fadein 4s 4s forwards;
 }
 
 .fadein4 {
