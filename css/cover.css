@@ -177,6 +177,12 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     color: lightgrey;
+    transition: 0.3s;
+}
+
+.masthead-brand:hover {
+    color: white;
+    transition: 0.3s;
 }
 
 .masthead-nav > li {
