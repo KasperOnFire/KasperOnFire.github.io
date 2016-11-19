@@ -46,7 +46,7 @@ body {
 
 .fadein1 {
     opacity: 0;
-    animation: fadein 2s forwards;
+    animation: fadein 2s 1s forwards;
 }
 
 .fadein2 {
@@ -56,12 +56,12 @@ body {
 
 .fadein3 {
     opacity: 0;
-    animation: fadein 4s 4s forwards;
+    animation: fadein 2s 4s forwards;
 }
 
 .fadein4 {
     opacity: 0;
-    animation: fadein 4s 5s forwards;
+    animation: fadein 2s 5s forwards;
 }
 
 @keyframes fadein {
@@ -133,7 +133,6 @@ body {
     -webkit-box-shadow: inset 0 0 25px #000;
     box-shadow: 0 0 25px rgba(0, 0, 0, .5);
     border-radius: 0 0 10px 10px;
-    margin-top: 0;
 }
 
 .site-wrapper-inner {
@@ -247,9 +246,26 @@ body {
     border-radius: 5px;
     padding: 20px;
     align-content: center;
-    box-shadow: 0 0 15px #000;
     font-family: courier new;
     height: auto;
+}
+
+.headline {
+    background: -webkit-linear-gradient(top, #4d4c47 0%, #3c3b37 100%);
+    background: -moz-linear-gradient(top, #4d4c47 0%, #3c3b37 100%);
+    background: -o-linear-gradient(top, #4d4c47 0%, #3c3b37 100%);
+    box-shadow: 0px 2px 0px #575757 inset;
+    height: auto;
+    padding: 5px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.headline span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px -1px 0px #333;
+    margin-left: 10px;
 }
 
 .contactme {}
