@@ -73,6 +73,7 @@ body {
 
 .inner {
     padding-top 10px;
+    font-family: raleway, sans-serif;
 }
 
 
@@ -83,6 +84,7 @@ body {
 .masthead-brand {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: lightgrey;
 }
 
 .masthead-nav > li {
@@ -195,13 +197,13 @@ body {
 .cover-heading {
     color: darkseagreen;
     font-size: 60px;
-    font-family: expletus-sans, arial;
+    font-family: expletus-sans, sans-serif;
 }
 
 .lead {
     color: #999;
     font-size: 30px;
-    font-family: raleway, arial;
+    font-family: raleway, sans-serif;
     margin: auto;
 }
 
@@ -221,7 +223,7 @@ body {
     height: 25px;
 }
 
-.inner coevr
+
 /*
  * Affix and center
  */
