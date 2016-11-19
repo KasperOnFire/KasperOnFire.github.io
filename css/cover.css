@@ -44,13 +44,23 @@ body {
 /*fade in, zoom in and other animation */
 
 .fadein1 {
-    animation-delay: 2s;
-    animation: fadein 4s;
+    opacity: 0;
+    animation: fadein 3s easein 1s forwards;
 }
 
 .fadein2 {
-    animation-delay: 8s;
-    animation: fadein 4s;
+    opacity: 0;
+    animation: fadein 5s easein 5s forwards;
+}
+
+.fadein3 {
+    opacity: 0;
+    animation: fadein 10s easein 8s forwards;
+}
+
+.fadein4 {
+    opacity: 0;
+    animation: fadein 10s easein 12s forwards;
 }
 
 @keyframes fadein {
