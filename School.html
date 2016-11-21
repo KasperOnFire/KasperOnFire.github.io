@@ -35,11 +35,45 @@
                     <h1 class="cover-heading">School stuff</h1>
                     <p class="lead">GUI and stuff for web in school.</p>
                     <div>
-                        <h2>Here it comes!</h2>
-                        <form>
-                            <p class="inputp">Test:</p>
-                            <input type="text" name="Test"> </form>
-                    </div>
+            <div>
+                <p>Enter name and password</p>
+                <form action="HelloWorld" method="post">
+                    Username<input type="text" name="name" value="" /> 
+                    Password<input type="password" name="pw" value="" />
+                    <input type="submit" value="login"/>
+                </form>
+            </div>
+            <div>
+                <p>Calculator (Creds Martin for dropdown #streetcred)</p>
+                <p>use . for decimal</p>
+                <form action="Calculator" method="post">
+                    first number<input type="text" name="number1" value="" />
+                    operator<select name="opr">
+                        <option>+</option>
+                        <option>-</option>
+                        <option>*</option>
+                        <option>/</option>
+                        <option>%</option>
+                    </select>
+                    second number<input type="text" name="number2" value="" />
+                    <input type="submit" value="calculate!"/>
+                </form>
+            </div>
+            <div>
+                <p>Calculator (Creds Mads for radio buttons #streetcred)</p>
+                <p>use . for decimal</p>
+                <form action="Calculator" method="post">
+                    first number<input type="text" name="number1" value="" />
+                    <input type="radio" name="opr" value="+" />+
+                    <input type="radio" name="opr" value="-" />-
+                    <input type="radio" name="opr" value="*" />*
+                    <input type="radio" name="opr" value="/" />/
+                    <input type="radio" name="opr" value="%" />%
+                    second number<input type="text" name="number2" value="" />
+                    <input type="submit" value="calculate!"/>
+                </form>
+            </div>
+        </div>
                 </div>
                 <div class="mastfoot">
                     <div class="inner">
