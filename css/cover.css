@@ -279,6 +279,7 @@ body {
     height: auto;
     width: auto;
     border: none;
+    min-width: 1px;
 }
 
 .userinput:focus {
@@ -373,9 +374,7 @@ body {
     margin-left: 270px;
 }
 
-input {
-    
-}
+input {}
 
 .mastfoot {
     color: #999;
