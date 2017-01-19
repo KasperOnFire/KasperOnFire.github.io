@@ -43,6 +43,7 @@ body {
 	background-attachment: fixed
 }
 
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
 .site-wrapper {
@@ -67,20 +68,6 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: 25px;
-}
-
-.cvhead {
-	color: darkseagreen;
-	font-family: raleway;
-	text-align: center;
-}
-
-.cvlist {
-	list-style-type: none;
-	text-align: left;
-	font-size: 20px;
-	line-height: 200%;
-	color: white;
 }
 
 
@@ -304,6 +291,15 @@ body {
 	width: 100%;
 	height: 25px;
 	padding: 10px;
+}
+
+.copyright{
+	color: #999;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	
 }
 
 
