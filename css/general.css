@@ -1,0 +1,29 @@
+@font-face {
+    font-family: mohave;
+    src: url("../fonts/mohave-semibold.otf")
+}
+
+@font-face {
+    font-family: peacesans;
+    src: url("../fonts/peace sans.ttf")
+}
+/*header*/
+.header{
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+.header h1{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 75px;
+    text-align: center;
+}
+.header h1 small{
+    font-size: 35px;
+}
+
+/*body*/
