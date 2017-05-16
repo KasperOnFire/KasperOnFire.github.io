@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /plex
 
-Allow: /index
+ Allow: /index
