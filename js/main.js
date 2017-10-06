@@ -1,3 +1,5 @@
+import Typed from 'typed.js';
+
 $(function () {
     $(".type").typed({
         strings: ["Aspiring softwaredeveloper and web-enthusiast."],
