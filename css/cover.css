@@ -270,7 +270,10 @@ body {
 
 .github{
 	font-size: 20px;
-	padding: 5%;
+	margin: 10px;
+}
+.github img{
+	padding-top: 5px;
 }
 
 .copyright {
