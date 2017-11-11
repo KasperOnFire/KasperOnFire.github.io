@@ -1,9 +1,3 @@
-/*
- * Globals
- */
-
-
-/* Links */
 
 a,
 a:focus,
@@ -12,21 +6,13 @@ a:hover {
 }
 
 
-/* Custom default button */
-
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
 	color: #333;
 	text-shadow: none;
-	/* Prevent inheritance from `body` */
 	border: 1px solid #fff;
 }
-
-
-/*
- * Base structure
- */
 
 html,
 body {
@@ -41,9 +27,6 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 
 .site-wrapper {
 	display: table;
@@ -73,18 +56,10 @@ body {
 	padding-bottom: 25px;
 }
 
-
-/* Padding for spacing */
-
 .inner {
 	padding-top: 10px;
 	font-family: raleway, sans-serif;
 }
-
-
-/*
- * Header
- */
 
 .masthead-brand {
 	margin-top: 10px;
@@ -100,7 +75,6 @@ body {
 
 .masthead-nav>li {
 	display: inline-block;
-	margin-right:
 }
 
 .masthead-nav>li+li {
@@ -179,7 +153,7 @@ body {
 	border-radius: 5px;
 	padding: 20px;
 	align-content: center;
-	font-family: courier new;
+	font-family: monospace;
 	height: auto;
 }
 
@@ -188,7 +162,7 @@ body {
 	color: white;
 	text-align: left;
 	font-size: 18px;
-	font-family: courier new;
+	font-family: monospace;
 	height: auto;
 	width: auto;
 	border: none;
@@ -218,8 +192,6 @@ body {
 	text-shadow: 0px -1px 0px #333;
 	margin-left: 10px;
 }
-
-.contactme {}
 
 .contactlogo {
 	height: 150px;
@@ -296,6 +268,11 @@ body {
 	padding: 10px;
 }
 
+.github{
+	font-size: 20px;
+	padding: 5%;
+}
+
 .copyright {
 	color: #999;
 	text-align: center;
@@ -341,7 +318,3 @@ width for columns!
 	}
 }
 
-
-/*
- * Footer
- */
