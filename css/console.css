@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+/*
+Cyberpunk colors
+#00ff9f 	(0,255,159) green
+#00b8ff 	(0,184,255) blue
+#bd00ff 	(189,0,255) purp
+#d600ff     (214,0,255) dark purp
+
+*/
+body {
+    background-color: #222;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 12pt;
+}
+
+nav {
+    margin: 0.5% 5px;
+}
+
+nav a {
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+    margin: 0 25px 0 0;
+    color: #666;
+}
+
+nav a#active {
+    border-bottom: 1px solid #222;
+}
+
+nav a:hover,
+nav a#active:hover {
+    border-bottom: 1px solid #888;
+}
+
+#console {
+    background-color: #222;
+    color: #fff;
+    margin: auto 5px;
+}
+
+#console .header {
+    display: inline-block;
+}
+
+.user {
+    color: #00b8ff;
+}
+
+.host {
+    color: #bd00ff;
+}
+
+.path {
+    color: #777;
+}
+
+.input {
+    display: block;
+}
+
+#cursor {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    text-decoration: none;
+    width: 50px;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.input,
+.output {
+    color: #fff;
+}
+
+footer {
+    bottom: 1%;
+    position: absolute;
+    color: #777777;
+    position: fixed;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
