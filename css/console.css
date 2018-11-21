@@ -56,8 +56,16 @@ nav a#active:hover {
     color: #777;
 }
 
-.input {
-    display: block;
+.userinput {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 8px;
+    min-width: 8px;
+    max-width: px;
+    color: #fff;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 12pt;
 }
 
 #cursor {
